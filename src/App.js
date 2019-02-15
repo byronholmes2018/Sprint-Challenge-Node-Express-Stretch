@@ -14,6 +14,7 @@ class App extends Component {
       actions: []
     }
   }
+  
   componentDidMount(){
     axios.get('http://localhost:3000/api/projects')
       .then(response=>{
